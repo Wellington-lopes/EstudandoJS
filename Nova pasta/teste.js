@@ -42,7 +42,7 @@ console.log(alunos);
 
 
 //para verificar se o nome já está na lista/array
-
+if (!alunos.nomes.includes("Igor")) // pode escrever das duas formas
 if (alunos.nomes.includes("Igor") === false){
     alunos.nomes.push("Igor");
     alunos.idades.push(18)
@@ -55,8 +55,9 @@ console.log(alunos)
 //Como remover de uma lista usando o indexOF sem precisar saber o local exato 
 
 let alunos = ["Well", "Carol", "Richard", "Rayane"];
+if (alunos.includes("Rayane"){}// pode escrever das duas formas
 if (alunos.includes("Rayane") === true){
     alunos.splice(alunos.indexOf("Rayane"), 1);
 }
-
+console.log(alunos.length);//ver a quantidade dentro de uma lista/array
 console.log(alunos);
